@@ -19,4 +19,4 @@ graph dados_abertos {
 }
 ```
 
-![http://www.webgraphviz.com/](https://user-images.githubusercontent.com/823150/31393620-8be00874-adb2-11e7-9378-63871a75887d.png)
+![http://www.webgraphviz.com/](https://user-images.githubusercontent.com/823150/31393719-c3defba4-adb2-11e7-8f75-8d2b6e87fc5b.png)
