@@ -11,12 +11,17 @@ graph dados_abertos {
   deputado -- orgao;
   deputado -- papel;
   deputado -- legislatura;
-  evento -- orgāo;
+  deputado -- votacao;
+  evento -- orgao;
   orgao -- tramitacao;
   tramitacao -- proposicao;
+  tramitacao -- votacao;
   papel -- mesa;
-  mesa -- legislatura;
+  mesa -- orgao;
+  legislatura -- mesa;
+  legislatura -- bloco;
+  bloco -- partido;
 }
 ```
 
-![http://www.webgraphviz.com/](https://user-images.githubusercontent.com/823150/31393719-c3defba4-adb2-11e7-8f75-8d2b6e87fc5b.png)
+![http://www.webgraphviz.com/](https://user-images.githubusercontent.com/823150/31394315-64058a98-adb4-11e7-9825-9d65515098bb.png)
