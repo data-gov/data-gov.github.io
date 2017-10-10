@@ -1,16 +1,15 @@
 # data-gov.github.io
 
 # Dados abertos de deputados
-## Representaçāo dos dados
-[LINK API](https://dadosabertos.camara.leg.br/)
+## [Representaçāo dos dados](https://dadosabertos.camara.leg.br/)
 
 ```
 graph dados_abertos {
+  deputado -- partido;
   deputado -- despesa;
   deputado -- evento;
   deputado -- orgao;
   deputado -- papel;
-  deputado -- partido;
   deputado -- legislatura;
   evento -- orgāo;
   orgao -- tramitacao;
@@ -20,4 +19,4 @@ graph dados_abertos {
 }
 ```
 
-![http://www.webgraphviz.com/](https://user-images.githubusercontent.com/823150/31393023-1b0285ec-adb1-11e7-9300-5d1fa8fb0ca7.png)
+![http://www.webgraphviz.com/](https://user-images.githubusercontent.com/823150/31393620-8be00874-adb2-11e7-9378-63871a75887d.png)
