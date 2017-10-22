@@ -1,6 +1,12 @@
 # data-gov.github.io
 
 # Dados abertos de deputados
+
+## Agente conversacional
+Iremos construir um bot que responderá perguntas sobre dados das eleiçōes.
+A representaçāo dos sistemas que vāo compor esta funcionalidade é a seguinte:
+![datagov-diagrama](https://user-images.githubusercontent.com/823150/31866407-b20a35ce-b75d-11e7-921d-5138c98eb504.png)
+
 ## [Representaçāo dos dados](https://dadosabertos.camara.leg.br/)
 
 ```
