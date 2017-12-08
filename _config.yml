@@ -1,1 +1,20 @@
-theme: jekyll-theme-tactile
+# Site settings
+title: DataGov
+description: Site da organização Data Gov
+baseurl: /
+url: https://data-gov.github.io #  the base hostname & protocol for your site e.g. localhost:3000
+
+# User settings
+username: DataGov
+user_description: Equipe DataGov
+user_title: datagov.org
+email: datagov.org@gmail.com
+#twitter_username: lorem_ipsum
+github_username:  data-gov
+#gplus_username:  lorem_ipsum
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
