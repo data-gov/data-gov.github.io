@@ -1,7 +1,6 @@
 # Site settings
 title: DataGov
 description: Site da organização Data Gov
-baseurl: /
 url: https://data-gov.github.io #  the base hostname & protocol for your site e.g. localhost:3000
 
 # User settings
