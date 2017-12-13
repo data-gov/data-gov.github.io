@@ -1,12 +1,22 @@
 <div class="user-details">
     <h1> Quem Somos </h1>
     <p> {{site.user_description}} </p>
-    <p> Somos uma equipe de desenvolvedores que busca facilitar o acesso à informação sobre as atividades dos nossos governantes,
+    <p> Somos uma equipe de desenvolvedores que busca facilitar o acesso à informação sobre as atividades dos nossos
+        governantes,
         bem como o desempenho da nossa classe política, através da tecnologia.
     </p>
 
-    <!--<img class="vini" src="{{ "/assets/img/vini.jpg" | prepend: site.baseurl }}" />-->
-    <!--<p style="width: 30%"> Vini</p>-->
-    <!--<img class="moroni" src="{{ "/assets/img/edu.jpg" | prepend: site.baseurl }}" />-->
-    <!--<p style="width: 30%"> Moroni</p>-->
+
+    <div class="parent">
+        <div class="child">
+            <img src="{{ "/assets/img/vini.jpg" | prepend: site.baseurl }}">
+            <p>Vinicius Costa</p>
+        </div>
+        <div class="child">
+            <img src="{{ "/assets/img/moroni.jpg" | prepend: site.baseurl }}">
+            <p>Eduardo Moroni</p>
+        </div>
+    </div>
+
+
 </div>
