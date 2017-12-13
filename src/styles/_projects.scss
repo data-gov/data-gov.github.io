@@ -43,6 +43,7 @@
     width: 48%;
   }
 }
+
 .images-right {
   @media only screen and (min-width: $cut) {
     float: right;
@@ -81,22 +82,36 @@
   text-decoration: none;
   cursor: pointer;
   transition: color 0.3s ease-out,
-              background-color 0.3s ease-out,
-              border-color 0.3s ease-out;
+  background-color 0.3s ease-out,
+  border-color 0.3s ease-out;
   &:hover {
     background-color: $purple;
     border-color: $purple;
     color: #fff;
     transition: color 0.3s ease-in,
-                background-color 0.3s ease-in,
-                border-color 0.3s ease-in;
+    background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
   }
   &:active {
     background-color: $purple;
     border-color: $purple;
     color: #fff;
     transition: color 0.3s ease-in,
-                background-color 0.3s ease-in,
-                border-color 0.3s ease-in;
+    background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
   }
+}
+
+.ico-kotlin {
+  width: 75px;
+  height: 75px;
+  background: url('../img/kotlin.jpg');
+  background-size: cover !important;
+}
+
+.ico-spring {
+  width: 75px;
+  height: 75px;
+  background: url('../img/spring-boot.jpg');
+  background-size: cover !important;
 }

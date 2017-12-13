@@ -1,33 +1,42 @@
 <div class="user-details">
-  <h1> Projetos DataGov </h1>
-</div>
-<div class="user-projects">
+    <h1> Projetos DataGov </h1>
 
-    <h3>
-      EM BREVE
-    </h3>
-  <!--<div class="images-right">-->
-    <!--<img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />-->
-  <!--</div>-->
-  <!--<div class="contents">-->
-    <!--<h3> Project Title </h3>-->
-    <!--<ul>-->
-      <!--<li> Featured Skills</li>-->
-    <!--</ul>-->
-    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
-    <!--<a class="project-link" href="#">Check it out</a>-->
-  <!--</div>-->
-<!--</div>-->
-<!--<div class="user-projects">-->
-  <!--<div class="images-left">-->
-    <!--<img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />-->
-  <!--</div>-->
-  <!--<div class="contents-right">-->
-    <!--<h3> Project Title </h3>-->
-    <!--<ul>-->
-      <!--<li> Featured Skills</li>-->
-    <!--</ul>-->
-    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
-    <!--<a class="project-link" href="#">Check it out</a>-->
-  <!--</div>-->
+    <p>A organização data-gov no github possui atualmente 4 projetos ativos, suas responsabilidades estão compreendidas
+        entre buscar dados de fontes publicas, transformá-los e armazená-los em uma base de dados própria, na nuvem,
+        prover uma API pública onde qualquer cliente externo poderá consumir essas informações e, por fim,
+        prover uma integração com sistemas de mensagens, tais como: Facebook, Gitter, Telegram e etc;
+        utilizando um processador de linguagem natural além de um agente conversacional.
+    </p>
+
+    <p> Todos os projetos desenvolvidos possuem seus códigos abertos na plataforma github e somente
+        utilizam ferramentas open source.
+    </p>
+</div>
+<div class="user">
+    <div class="tech">
+        <h2>Dados</h2>
+        <p>Utilizando tecnologias como Kotlin, Spring, Feign, MongoDB os projetos Bumblebee e Ratchet
+            consomem dados oficiais de API's públicas, modelam para um formato comum e os armazena em um
+            banco de dados NoSQL na nuvem, chamado MongoDB, além de atualizar a base de dados do processador
+            de linguagem natural.
+        </p>
+    </div>
+    <div class="tech">
+        <h2>API</h2>
+        <p>
+            O projeto Optmus-Prime é o responsável por prover uma API onde qualquer aplicação pode consultar
+            os dados armazenados previamente. Este projeto foi desenvolvido utilizando Javascript, NodeJS e GraphQL,
+            desta maneira, cabe a quem está buscando informações solicitar quais campos deseja utilizar, otimizando
+            o número de dados trafegados pela rede.
+        </p>
+    </div>
+    <div class="tech">
+        <h2>Divulgação</h2>
+        <p>Atualmente o DataGov expõem os dados coletados ao público utilizando-se de um agente conversacional
+            integrado com o Facebook e Gitter, podendo ser expandido também para Telegram e demais plataformas
+            de troca de mensagens. O projeto Wheeljack é o responsável por prover esta integração, utilizando
+            tecnologias como
+            Javascript, NodeJS, Hubot e Wit.ai.
+        </p>
+    </div>
 </div>

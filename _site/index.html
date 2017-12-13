@@ -24,82 +24,85 @@
         <a aria-label="My Github" target="_blank" href="https://github.com/data-gov/"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
       </div>
       <div class="header-links">
-        <a class="link" href="#about" data-scroll>Sobre Nós</a>
+        <a class="link" href="#about" data-scroll>Quem Somos</a>
         <a class="link" href="#projects" data-scroll>Projetos</a>
+          <a class="link" href="#architecture" data-scroll>Como Funciona</a>
+          <a class="link" href="#demo" data-scroll>Demo</a>
       </div>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
 
       <section id="about">
-         <div class="user-details">
-  <h1> Quem Somos </h1>
-  <p> Equipe DataGov </p>
+        <div class="user-details">
+    <h1> Quem Somos </h1>
+    <p> Equipe DataGov </p>
+    <p> Somos uma equipe de desenvolvedores que busca facilitar o acesso à informação sobre as atividades dos nossos governantes,
+        bem como o desempenho da nossa classe política, através da tecnologia.
+    </p>
+
+    <!--<img class="vini" src="/assets/img/vini.jpg" />-->
+    <!--<p style="width: 30%"> Vini</p>-->
+    <!--<img class="moroni" src="/assets/img/edu.jpg" />-->
+    <!--<p style="width: 30%"> Moroni</p>-->
 </div>
-  <!--<div class="user">-->
-    <!--<div class="tech">-->
-      <!--<h2>Design</h2>-->
-      <!--<i class="devicon-html5-plain-wordmark"></i>-->
-      <!--<i class="devicon-bootstrap-plain-wordmark colored"></i>-->
-      <!--<i class="devicon-sass-original colored"></i>-->
-      <!--<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.-->
-        <!--Vinyl XOXO lumbersexual</p>-->
-    <!--</div>-->
-    <!--<div class="tech">-->
-      <!--<h2>Code</h2>-->
-      <!--<i class="devicon-javascript-plain colored"></i>-->
-      <!--<i class="devicon-react-original-wordmark colored"></i>-->
-      <!--<i class="devicon-nodejs-plain-wordmark"></i>-->
-      <!--<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.-->
-        <!--Vinyl XOXO lumbersexual</p>-->
-    <!--</div>-->
-    <!--<div class="tech">-->
-      <!--<h2>Tools</h2>-->
-      <!--<i class="devicon-git-plain"></i>-->
-      <!--<i class="devicon-gulp-plain colored"></i>-->
-      <!--<i class="devicon-atom-original-wordmark"></i>-->
-      <!--<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.-->
-        <!--Vinyl XOXO lumbersexual</p>-->
-    <!--</div>-->
-<!--</div>-->
 
       </section>
 
       <section id="projects">
         <div class="user-details">
-  <h1> Projetos DataGov </h1>
-</div>
-<div class="user-projects">
+    <h1> Projetos DataGov </h1>
 
-    <h3>
-      EM BREVE
-    </h3>
-  <!--<div class="images-right">-->
-    <!--<img alt="mountains" src="/assets/img/mountains.jpg" />-->
-  <!--</div>-->
-  <!--<div class="contents">-->
-    <!--<h3> Project Title </h3>-->
-    <!--<ul>-->
-      <!--<li> Featured Skills</li>-->
-    <!--</ul>-->
-    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
-    <!--<a class="project-link" href="#">Check it out</a>-->
-  <!--</div>-->
-<!--</div>-->
-<!--<div class="user-projects">-->
-  <!--<div class="images-left">-->
-    <!--<img alt="mountains" src="/assets/img/skate.jpg" />-->
-  <!--</div>-->
-  <!--<div class="contents-right">-->
-    <!--<h3> Project Title </h3>-->
-    <!--<ul>-->
-      <!--<li> Featured Skills</li>-->
-    <!--</ul>-->
-    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
-    <!--<a class="project-link" href="#">Check it out</a>-->
-  <!--</div>-->
-</div>
+    <p>A organização data-gov no github possui atualmente 4 projetos ativos, suas responsabilidades estão compreendidas
+        entre buscar dados de fontes publicas, transformá-los e armazená-los em uma base de dados própria, na nuvem,
+        prover uma API pública onde qualquer cliente externo poderá consumir essas informações e, por fim,
+        prover uma integração com sistemas de mensagens, tais como: Facebook, Gitter, Telegram e etc;
+        utilizando um processador de linguagem natural além de um agente conversacional.
+    </p>
 
+    <p> Todos os projetos desenvolvidos possuem seus códigos abertos na plataforma github e somente
+        utilizam ferramentas open source.
+    </p>
+</div>
+<div class="user">
+    <div class="tech">
+        <h2>Dados</h2>
+        <p>Utilizando tecnologias como Kotlin, Spring, Feign, MongoDB os projetos Bumblebee e Ratchet
+            consomem dados oficiais de API's públicas, modelam para um formato comum e os armazena em um
+            banco de dados NoSQL na nuvem, chamado MongoDB, além de atualizar a base de dados do processador
+            de linguagem natural.
+        </p>
+    </div>
+    <div class="tech">
+        <h2>API</h2>
+        <p>
+            O projeto Optmus-Prime é o responsável por prover uma API onde qualquer aplicação pode consultar
+            os dados armazenados previamente. Este projeto foi desenvolvido utilizando Javascript, NodeJS e GraphQL,
+            desta maneira, cabe a quem está buscando informações solicitar quais campos deseja utilizar, otimizando
+            o número de dados trafegados pela rede.
+        </p>
+    </div>
+    <div class="tech">
+        <h2>Divulgação</h2>
+        <p>Atualmente o DataGov expõem os dados coletados ao público utilizando-se de um agente conversacional
+            integrado com o Facebook e Gitter, podendo ser expandido também para Telegram e demais plataformas
+            de troca de mensagens. O projeto Wheeljack é o responsável por prover esta integração, utilizando
+            tecnologias como
+            Javascript, NodeJS, Hubot e Wit.ai.
+        </p>
+    </div>
+</div>
+      </section>
+
+      <section id="architecture">
+          <div class="user-details">
+    <h1> Como Funciona </h1>
+
+    <p>O diagrama abaixo ilustra como funciona o atual ecossistema da plataforma DataGov </p>
+    <div class="how-it-works">
+        <img src="/assets/img/architecture.png" />
+    </div>
+</div>
       </section>
         
       <footer class="footer">

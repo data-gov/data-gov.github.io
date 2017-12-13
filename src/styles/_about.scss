@@ -31,3 +31,27 @@
   text-align: center;
   margin: 5px auto;
 }
+
+.vini {
+  float: left;
+  width: 40%;
+  height: 400px;
+  background-size: contain !important;
+  background: url("../img/vini.png") no-repeat;
+
+  & p {
+    width: 100%;
+  }
+}
+
+.moroni {
+  float: left;
+  width: 40%;
+  height: 400px;
+  background-size: contain !important;
+  background: url("../img/moroni.jpg") no-repeat;
+
+  & p {
+    width: 100%;
+  }
+}
